@@ -1,0 +1,69 @@
+<LinearLayout
+    android:background="#E2BF68"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha sua pizza"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp"
+        android:id="@+id/rdgSabores"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calabresa"
+            android:id="@+id/rdbCalabresa"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muçarela"
+            android:id="@+id/rdbMucarela"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atum"
+            android:id="@+id/rdbAtum"
+            />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frango com Catupiry"
+            android:id="@+id/rdbFrango"
+            />
+    </RadioGroup>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Com borda recheada?"
+        android:id="@+id/chkBordaRecheada"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar pedido"
+        android:onClick="realizarPedido"
+        android:layout_marginVertical="16dp"
+        />
+
+
+</LinearLayout>
