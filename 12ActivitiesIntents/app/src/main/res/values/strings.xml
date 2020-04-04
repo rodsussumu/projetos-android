@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">12-Activities-Intents</string>
+    <string name="fiap_chat">FIAP CHAT</string>
+    <string name="informe_um_nickname_para_entrar">Informe um Nickname para entrar</string>
+    <string name="informe_sua_idade">Informe sua idade</string>
+    <string name="entrar">Entrar</string>
+</resources>
