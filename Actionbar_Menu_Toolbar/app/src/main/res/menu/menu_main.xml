@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mniOpcoes"
+        android:title="@string/opcoes">
+
+        <menu>
+            <item
+                android:id="@+id/mniExemploSemToolbar"
+                android:title="@string/exemplo_sem_toolbar"
+                />
+
+            <item
+                android:id="@+id/mniToolbarPersonalizada"
+                android:title="@string/toolbar_personalizada"
+                />
+
+        </menu>
+    </item>
+
+    <item
+        android:icon="@drawable/info"
+        android:id="@+id/mniSobre"
+        app:showAsAction="always"
+        android:title="@string/sobre"
+        />
+
+    <item
+        android:id="@+id/mniSair"
+        app:showAsAction="never"
+        android:title="@string/sair"
+        />
+</menu>

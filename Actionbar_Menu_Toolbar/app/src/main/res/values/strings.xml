@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ActionBar-Menu-Toolbar</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+    <string name="opcoes">Opções</string>
+    <string name="exemplo_sem_toolbar">Exemplo sem toolbar</string>
+    <string name="toolbar_personalizada">Toolbar personalizada</string>
+</resources>
