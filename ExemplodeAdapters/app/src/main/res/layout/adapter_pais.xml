@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <ImageView
+        android:id="@+id/imgPais"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginRight="16dp"
+        tools:src="@drawable/japao"
+        />
+    
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgPais"
+        android:layout_marginTop="16dp"
+        tools:text="Japão"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNome"
+        tools:text="Tokyo"
+        android:layout_toRightOf="@id/imgPais"/>
+
+
+</RelativeLayout>
