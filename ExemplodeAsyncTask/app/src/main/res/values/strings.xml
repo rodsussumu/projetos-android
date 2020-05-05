@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Exemplo de Async Task</string>
+    <string name="download_imagem">Download imagem</string>
+</resources>
