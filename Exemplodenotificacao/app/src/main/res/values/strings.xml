@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo de notificação</string>
+    <string name="notificacao_personalizada">Notificação personalizada</string>
+    <string name="notificacao_fixa">Notificação Fixa</string>
+</resources>
