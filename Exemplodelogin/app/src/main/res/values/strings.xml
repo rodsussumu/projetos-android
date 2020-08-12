@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exemplo de login</string>
+    <string name="digite_seu_usuario">Digite seu usuario</string>
+    <string name="login">Login</string>
+    <string name="manter_conectado">Manter conectado?</string>
+    <string name="digite_sua_senha">Digite sua senha</string>
+</resources>
