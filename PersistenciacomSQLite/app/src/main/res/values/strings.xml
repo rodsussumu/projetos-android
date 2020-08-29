@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Persistencia com SQLite</string>
+    <string name="novo_contato">Novo contato</string>
+    <string name="digite_o_seu_email">Digite o seu email</string>
+    <string name="digite_o_seu_nome">Digite o seu nome</string>
+    <string name="digite_seu_telefone">Digite seu telefone</string>
+    <string name="salvar">Salvar</string>
+    <string name="campos_obrigatorios">Todos os campos são obrigatorios</string>
+    <string name="excluir">Excluir</string>
+</resources>
